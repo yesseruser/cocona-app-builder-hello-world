@@ -4,6 +4,6 @@ public class PrintService : IPrintService
 {
     public void Print(string text)
     { 
-        Console.Write(text);
+        Console.WriteLine(text);
     }
 }
