@@ -5,10 +5,10 @@ using CoconaCliBuilder;
 
 var builder = CoconaApp.CreateBuilder(args);
 
-builder.Services.AddSingleton<IPrintService, PrintService>();
+builder.Services.AddSingleton<IWriteService, WriteService>();
 
 using var app = builder.Build();
 
 await app.RunAsync(() =>
-    app.Services.GetService<IPrintService>()
-    ?.Print("Hello, World!"));
+    app.Services.GetService<IWriteService>()
+    ?.Write("Hello, World!"));

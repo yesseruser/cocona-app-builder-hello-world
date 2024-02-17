@@ -1,8 +1,8 @@
 namespace CoconaCliBuilder;
 
-public class PrintService : IPrintService
+public class WriteService : IWriteService
 {
-    public void Print(string text)
+    public void Write(string text)
     { 
         Console.WriteLine(text);
     }
