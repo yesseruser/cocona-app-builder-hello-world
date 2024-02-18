@@ -1,0 +1,14 @@
+[
+  {
+    "language": "en",
+    "strings": {
+      "hello": "Hello, World!"
+    }
+  },
+  {
+    "language": "cs",
+    "strings": {
+      "hello": "Ahoj, Světe"
+    }
+  }
+]
