@@ -58,4 +58,12 @@ public class BusinessLogicTests
         
         Assert.AreEqual(expected, actual);
     }
+
+    [TestMethod]
+    public void WriteService_NoExceptionThrown()
+    {
+        var writeService = new WriteService();
+        
+        writeService.WriteLine("foobar");
+    }
 }
