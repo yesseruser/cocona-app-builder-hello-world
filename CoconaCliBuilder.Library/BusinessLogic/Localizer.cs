@@ -3,7 +3,7 @@ using CoconaCliBuilder.Library.Models;
 
 namespace CoconaCliBuilder.Library.BusinessLogic;
 
-public class Localiser : ILocaliser
+public class Localizer : ILocalizer
 {
     public string GetLocalizedString(string key, string languageName)
     {

@@ -6,13 +6,13 @@ using CoconaCliBuilder.Library.Models;
 var builder = CoconaApp.CreateBuilder(args);
 
 builder.Services.AddSingleton<IWriteService, WriteService>();
-builder.Services.AddSingleton<ILocaliser, Localiser>();
+builder.Services.AddSingleton<ILocalizer, Localizer>();
 
 using var app = builder.Build();
 
 await app.RunAsync(() =>
 {
-    var localiser = app.Services.GetService<ILocaliser>()!;
+    var localiser = app.Services.GetService<ILocalizer>()!;
     var writeService = app.Services.GetService<IWriteService>()!;
     
     var langName = localiser.GetCurrentLanguageName();
