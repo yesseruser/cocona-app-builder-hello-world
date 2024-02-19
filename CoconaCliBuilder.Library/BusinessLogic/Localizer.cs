@@ -17,7 +17,7 @@ public class Localizer : ILocalizer
         {
             return GetLocalizedString(key, languageName);
         }
-        catch (ArgumentNullException e)
+        catch (Exception e)
         {
             return onException(key, languageName, e);
         }
