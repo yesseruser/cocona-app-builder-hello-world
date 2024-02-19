@@ -6,7 +6,7 @@ public class MockWriteService : IWriteService
 {
     public bool Written { get; private set; }
     
-    public void Write(string text)
+    public void WriteLine(string text)
     {
         Written = true;
     }

@@ -20,7 +20,7 @@ public class UnitTest1
         app.Run(() =>
         {
             var writeService = app.Services.GetService<IWriteService>();
-            writeService?.Write("Hello, World!");
+            writeService?.WriteLine("Hello, World!");
             Assert.IsTrue((writeService as MockWriteService)?.Written);
         });
     }

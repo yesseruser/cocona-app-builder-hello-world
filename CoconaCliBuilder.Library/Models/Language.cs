@@ -1,7 +1,7 @@
 namespace CoconaCliBuilder.Library.Models;
 
-public abstract record Language(string LanguageName, List<string> Strings)
+public class Language(string name, Dictionary<string, string> strings)
 {
-    public string LanguageName { get; set; } = LanguageName;
-    public List<string> Strings { get; set; } = Strings;
+    public string Name { get; set; } = name;
+    public Dictionary<string, string> Strings { get; set; } = strings;
 }

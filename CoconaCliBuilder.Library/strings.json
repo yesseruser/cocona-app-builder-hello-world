@@ -1,14 +1,14 @@
 [
   {
-    "language": "en",
+    "name": "en",
     "strings": {
       "hello": "Hello, World!"
     }
   },
   {
-    "language": "cs",
+    "name": "cs",
     "strings": {
-      "hello": "Ahoj, Světe"
+      "hello": "Ahoj, Světe!"
     }
   }
 ]
