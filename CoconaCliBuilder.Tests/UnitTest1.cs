@@ -1,6 +1,7 @@
 using Cocona;
 using Microsoft.Extensions.DependencyInjection;
 using CoconaCliBuilder;
+using CoconaCliBuilder.Library.BusinessLogic;
 
 namespace CoconaCliBuilder.Tests;
 

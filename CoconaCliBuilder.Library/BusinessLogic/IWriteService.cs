@@ -1,4 +1,4 @@
-namespace CoconaCliBuilder;
+namespace CoconaCliBuilder.Library.BusinessLogic;
 
 public interface IWriteService
 {

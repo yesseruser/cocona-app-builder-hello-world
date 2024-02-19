@@ -11,4 +11,8 @@
       <PackageReference Include="Cocona" Version="2.2.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CoconaCliBuilder.Library\CoconaCliBuilder.Library.csproj" />
+    </ItemGroup>
+
 </Project>

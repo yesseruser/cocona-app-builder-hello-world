@@ -1,3 +1,5 @@
+using CoconaCliBuilder.Library.BusinessLogic;
+
 namespace CoconaCliBuilder.Tests;
 
 public class MockWriteService : IWriteService

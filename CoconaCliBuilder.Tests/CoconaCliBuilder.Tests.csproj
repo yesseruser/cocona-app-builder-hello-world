@@ -18,6 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\CoconaCliBuilder.Library\CoconaCliBuilder.Library.csproj" />
       <ProjectReference Include="..\CoconaCliBuilder\CoconaCliBuilder.csproj" />
     </ItemGroup>
 

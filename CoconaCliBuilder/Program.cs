@@ -1,7 +1,6 @@
 ﻿using Cocona;
 using Microsoft.Extensions.DependencyInjection;
-
-using CoconaCliBuilder;
+using CoconaCliBuilder.Library.BusinessLogic;
 
 var builder = CoconaApp.CreateBuilder(args);
 
